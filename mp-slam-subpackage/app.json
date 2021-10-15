@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": ["pages/component/"]
+    }
+  },
+  "subPackages": [
+    {
+      "root": "pages/component/",
+      "pages": ["component"],
+      "plugins": {
+        "kivicube-slam": {
+          "version": "1.0.6",
+          "provider": "wx12ad8a61f049ea02"
+        }
+      }
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "SLAM插件快速接入示例-分包",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="btn-start">
+  <image class="home-btn" mode="widthFix" src="../../assets/images/home-btn.png"></image>
+  <text bindtap="handleTap">进入分包页</text>
+</view>
+<image class="home-bg" mode="widthFix" src="../../assets/images/home-bg.jpg"></image>
