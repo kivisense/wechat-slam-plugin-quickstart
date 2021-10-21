@@ -33,9 +33,9 @@
     "showES6CompileOption": false
   },
   "compileType": "miniprogram",
-  "libVersion": "2.19.6",
+  "libVersion": "2.20.0",
   "appid": "wx12ad8a61f049ea02",
-  "projectname": "kivicube-mp-slam",
+  "projectname": "wechat-slam-plugin-quickstart",
   "debugOptions": {
     "hidedInDevtools": []
   },

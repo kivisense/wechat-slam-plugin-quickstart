@@ -10,12 +10,10 @@ Page({
   },
   // 不带参数
   handleAr(){
-    wx.uma.trackEvent("home_entry_slamScene", {sceneId: this.data.sceneId});
     wx.navigateTo({ url: `plugin://kivicube-slam/scene?id=${this.data.sceneId}` });
   },
   // 带参数
   handleArWithParams() {
-    wx.uma.trackEvent("home_entry_slamScene", {sceneId: this.data.sceneId});
     wx.navigateTo({ url: `plugin://kivicube-slam/scene?id=${this.data.sceneId}${this.data.params}` });
   },
   onShareAppMessage() {
