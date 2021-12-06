@@ -14,7 +14,7 @@
       "pages": ["component"],
       "plugins": {
         "kivicube-slam": {
-          "version": "1.0.6",
+          "version": "1.0.10",
           "provider": "wx12ad8a61f049ea02"
         }
       }
