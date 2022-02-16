@@ -2,7 +2,7 @@
 Page({
   handleTap() {
     wx.navigateTo({
-      url: '../component/component',
+      url: '../slam/slam',
     })
   }
 });

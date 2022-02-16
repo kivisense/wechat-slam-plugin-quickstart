@@ -23,6 +23,13 @@
           "pathName": "pages/index/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/slam/slam",
+          "query": "",
+          "scene": null,
+          "launchMode": "default"
         }
       ]
     }

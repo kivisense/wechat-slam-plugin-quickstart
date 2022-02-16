@@ -5,16 +5,16 @@
   "preloadRule": {
     "pages/index/index": {
       "network": "all",
-      "packages": ["pages/component/"]
+      "packages": ["pages/slam/"]
     }
   },
   "subPackages": [
     {
-      "root": "pages/component/",
-      "pages": ["component"],
+      "root": "pages/slam/",
+      "pages": ["slam"],
       "plugins": {
         "kivicube-slam": {
-          "version": "1.0.6",
+          "version": "1.2.1",
           "provider": "wx12ad8a61f049ea02"
         }
       }
