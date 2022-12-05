@@ -1,0 +1,9 @@
+<kivicube-slam
+  class="slam-component"
+  license="{{license}}"
+  bindready="ready"
+  binderror="error"
+  bind:tap="tap"
+/>
+
+<view wx:if="{{showGuide}}" class="slam-component-guide">请点击屏幕，放置模型</view>

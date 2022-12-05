@@ -1,0 +1,28 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"disableScroll": true,
+				"usingComponents": {
+					"kivicube-slam": "plugin://kivicube-slam/kivicube-slam"
+				}
+			}
+		},
+		{
+			"path": "pages/scene/scene",
+			"style": {
+				"disableScroll": true,
+				"usingComponents": {
+					"kivicube-slam": "plugin://kivicube-slam/kivicube-slam"
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
