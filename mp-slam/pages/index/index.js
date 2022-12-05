@@ -3,7 +3,7 @@ const app = getApp();
 Page({
   data: {
     sceneId: '867911c32f0a4e48a6762a0beb2162c6',
-    params: "&shadow=0.3&ambient=0.3&directional=2.5&horizontal=0&vertical=0&envMap=default&size=0.8&rotation=0&animation=&animationLoop=true&shareImage=&gyroscope=false",
+    params: "&shadow=0.3&ambient=0.3&directional=2.5&horizontal=0&vertical=0&envMap=default&size=0.8&rotation=0&animation=&animationLoop=true&shareImage=&gyroscope=false&version=v2&downgrade=true",
     sharePagePath: '/pages/index/index',
   },
   onLoad() {
